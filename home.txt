@@ -1,0 +1,14 @@
+A group of colleagues are at work and decide that half of them can go home while the other half stay. in order to fairly choose who gets to go home early they
+devise a game. The workers stand in a circle and play the game in each round of the game someone gets to go home early until half of the workers are left.
+The rules of the game are as follows:
+
+Stand in a circle where each worker is numbered from 1 to n in clockwise order where n is the number of workers
+
+start at the 1st worker
+
+count the next k workers in the circle, not including the one you start at. The counting wraps around the circle and you may count workers left. You should
+always round up  when calculating n/2. For example, if you have five workers then two get to go home.
+
+You are asked to write a method which implements this game.
+You should return a list of the assigned numbers of the workers who are going home early in the order they were selected. there should always be at least
+one person who is working
